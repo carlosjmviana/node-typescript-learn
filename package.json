@@ -1,0 +1,21 @@
+{
+  "name": "yarn-node-ts-test",
+  "version": "0.0.1",
+  "description": "Yarn Node Typescript Learn Project",
+  "main": "src/app.ts",
+  "repository": "git@github.com:carlosjmviana/node-typescript-learn.git",
+  "author": "Carlos Viana",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^16.4.13",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.1.0"
+  }
+}
